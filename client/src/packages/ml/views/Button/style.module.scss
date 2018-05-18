@@ -1,0 +1,39 @@
+
+.common {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+
+.red {
+    font-size: 25px;
+    background-color: red;
+    color: white;
+}
+
+.green {
+    composes: common;
+    background-color: green;
+
+}
+
+.pink {
+    composes: common;
+    background-color: pink;
+}
+
+
+.bootstrap{
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    outline:none;
+    padding: 6px;
+}
+
+.bootstrap:focus{
+    border:1px solid #56b4ef;
+    box-shadow: 0px 0px 3px 1px #c8def0;
+}

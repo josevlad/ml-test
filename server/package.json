@@ -1,0 +1,42 @@
+{
+  "name": "ml-test-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run babel-node -- .",
+    "watch": "nodemon -e js,json,env --exec npm run babel-node -- .",
+    "babel-node": "BABEL_DISABLE_CACHE=1 babel-node --presets=env"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Diego Comesaña",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://gitlab.com/diegocomesana/graphql-apollo-express#README",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "casual": "^1.5.19",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "mysql2": "^1.5.3",
+    "path": "^0.12.7",
+    "sequelize": "^4.37.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-preset-env": "^1.6.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "nodemon": "^1.17.3"
+  }
+}

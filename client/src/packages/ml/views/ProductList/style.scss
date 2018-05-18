@@ -1,0 +1,119 @@
+
+
+
+.ProductList {
+    
+
+    .Item {
+
+        .Wrapper {
+            background-color: white;
+
+            .Inner {
+                color:#666666;
+                display: flex;
+                padding:19px 16px;
+
+                .Image {
+                    width:180px;
+                    height: 180px;
+                    max-width:180px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 4px;
+                    background-image: url(../../assets/nopic_es160x160.gif);
+                }
+
+                .Middle {
+                    color:#333333;
+                    flex:1;
+                    margin-left:16px;
+
+                    .Otro {
+                        display: flex;
+                        align-items: center;
+                        margin-top:20px;
+                        /*background-color:yellow;*/
+
+                        .Price {
+                            font-size: 24px;
+                            display: inline-block;
+
+                            .Sign {
+                                font-size: 14px;
+                                font-weight: normal;
+                            }
+                            .Decimals {
+                                font-size: 14px;
+                                font-weight: normal;
+                            }
+                        }
+    
+                        .freeShipping {
+                            /*background-color: pink;*/
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            background-image: url(../../assets/ic_shipping@2x.png);
+                            width: 25px;
+                            height: 25px;
+                            margin:0;
+                            padding:0;
+                            margin-left:15px;
+                            display: inline-block;
+                        }
+
+                    }
+
+
+
+                    .Title {
+                        font-size: 18px;
+                        font-weight: 500;
+                        /*color:#333333;*/
+                        display:block;
+                        /*background-color:green;*/
+                    }
+                }
+
+
+
+                .Right {
+                    flex:.3;
+                    margin-left:16px;
+                    .Location {
+                        display: inline-block;
+                        margin-top:30px;
+                        font-size: 14px;
+                    }
+                }
+
+            }
+
+            .Line {
+                width: calc(100% - 50px);
+                margin:0 auto;
+                height: 2px;
+                background-color: #EEEEEE;
+            }
+
+        }
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+  

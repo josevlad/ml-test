@@ -1,0 +1,154 @@
+
+
+@font-face{
+  font-family:'Proxima Nova';
+  font-weight:300;
+  font-display:swap;
+  font-style:normal;
+  src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.ttf) format("truetype")
+}
+
+@font-face{
+  font-family:'Proxima Nova';
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.ttf) format("truetype")
+}
+
+@font-face{
+  font-family:'Proxima Nova';
+  font-weight:600;
+  font-display:swap;
+  font-style:normal;
+  src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf) format("truetype")
+}
+
+
+html {
+  font-size: 16px;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-weight: normal;
+}
+
+a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color:#333333;
+  &:hover {
+    color: #3483FA;       
+  }
+}
+
+body {
+  background-color: #EEEEEE;
+  margin:0;
+  padding:0;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+div.Loader {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+}
+
+.Container {
+  width: calc(100% - 100px);
+  background-color: rgb(43, 144, 226);
+  margin:50px;
+}
+
+
+.TestCelda {
+  background-color: burlywood;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  min-height: 100px;
+}
+
+.HomeBanner {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../assets/home_banner.jpg);
+  width: 100%;
+  margin: 0;
+  padding:0;
+  height: 400px;
+}
+
+
+
+button.primary {
+  margin-top: 40px;
+  width:100%;
+  background-color: #3483FA;
+  border: 2px solid  #3483FA;
+  color: white;
+  border-radius: 5px;
+  font-size: 19px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  &:hover {
+      background-color: transparent;
+      color: #3483FA;
+      /*font-weight: 900;*/
+      font-size: 19px;
+      border: 2px solid #3483FA;
+      box-shadow: 0px 0px 1px 1px rgba(39,54,116,.2);
+  }
+}
+
+
+
+
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid #3483FA;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #3483FA transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

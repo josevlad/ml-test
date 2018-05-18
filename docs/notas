@@ -1,0 +1,38 @@
+
+
+
+
+Para configurar nginx:
+try_files $uri /index.html;
+Simplemente hay que configurar que las rutas que no se encuentran se sirvan igual pero que siempre llamen al index.html
+
+
+
+TODO:
+- Falta el dato location, buscarlo en la api > seller city HECHO
+- currency desde la api 
+- falta el ícono de envíos HECHO
+- dinamizar la url de la api que se cargue como un asset en un json asincrónico en tiempo de ejecución
+- ajustar responsiveness de ambas páginas: HECHO
+    en el listado volver a poner rows y cols para el contenido interno
+    el tamaño del precio aveces no entra HECHO
+    superindice para el decimal del precio en detail HECHO
+- cursor:pointer en imagen de detail HECHO
+- foto por defecto cuando no hay ninguna HECHO
+- texto en contenido del home cuando no se buscó nada HECHO
+- revisar scroll raro que se genera en ciertos casos
+- cambiar mensaje: "Debe poner al menos 2 caracteres." por algo más coherente HECHO
+- paginado sería genial!!
+- conseguir un componente de react que muestre las distintas fotos en detail
+- que cuando buscar un nuevo texto no muestre el anterior por un instante
+- botón volver en detail
+- implementar las imágenes x2 para pantallas retina
+
+- hacer README / INSTALL
+
+
+
+Docker:
+[01:42, 18/5/2018] Vladimir Castañeda: docker run -it -d -p 80:8000 josevlad/express-react-app:0.0.1
+[01:43, 18/5/2018] Vladimir Castañeda: docker pull josevlad/express-react-app:0.0.1
+

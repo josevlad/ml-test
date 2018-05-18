@@ -1,0 +1,64 @@
+
+
+.Breadcrum {
+
+    .Inner {
+        font-size: 14px;
+        font-weight: 200;
+        color:#666666;
+        padding:16px 0;
+        margin:0;
+
+        @media (max-width: 765px) {
+            margin-left: 16px;
+        }
+
+        ul {
+            margin:0;
+            padding:0;
+            list-style: none;
+            display: block;
+
+            li {
+                margin:0;
+                padding:0;
+                display: inline-block;
+                a {
+                    color:#666666;
+                    text-decoration: none;
+                }
+            }
+
+            li:last-child {
+                font-weight: 800;
+            }
+
+            li + li:before {
+                content: "\203A";
+                padding: 5px 5px 0 5px;
+                color:#666666;
+                font-size: 22px;
+                line-height: 14px;
+            }
+
+            li:before {
+                font-weight: 200;
+            }
+            
+        }
+
+
+    }   
+
+}
+
+
+
+
+
+
+
+
+
+
+  
