@@ -2,9 +2,9 @@
 
 Aplicación de búsqueda de productos que interactua con la api pública de Mercadolibre
 
-### Prerequisitos, Instalacion y Actualizacion
+### Prerequisitos, Instalación y Actualización
 
-- Para la instalacion, ver archivo [INSTALL](https://github.com/diegocomesana/ml-test/blob/master/INSTALL.md)
+- Para la instalación, ver archivo [INSTALL](https://github.com/diegocomesana/ml-test/blob/master/INSTALL.md)
 
 
 ## Versionamiento

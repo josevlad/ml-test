@@ -1,10 +1,4 @@
 # INSTALL
-Toda la descripcion del contenido de esta instalación se encuentra documentado en este 
-[archivo](http://git-asi.buenosaires.gob.ar/usuarioQA/asi-234-api-buscador-establecimientos/blob/master/CHANGELOG.md).
-
-El formato se basa en [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-
-Este proyecto se adhiere a [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ### Requerimientos del server
 
